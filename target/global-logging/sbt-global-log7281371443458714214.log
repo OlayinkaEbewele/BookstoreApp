@@ -1,0 +1,82 @@
+[debug] > Exec(early(addDefaultCommands), None, None)
+[debug] > Exec(addDefaultCommands, None, None)
+[debug] > Exec(early(initialize), None, None)
+[debug] > Exec(initialize, None, None)
+[debug] > Exec(boot, None, None)
+[debug] > Exec(writeSbtVersion, None, None)
+[debug] > Exec(reload, None, None)
+[debug] > Exec(sbtStashOnFailure, None, None)
+[debug] > Exec(onFailure loadFailed, None, None)
+[debug] > Exec(loadp, None, None)
+[info] welcome to sbt 1.7.2 (Oracle Corporation Java 1.8.0_361)
+[debug]       Load.loadUnit: plugins took 1601.7485ms
+[debug]       Load.loadUnit: defsScala took 1.665ms
+[debug] [Loading] Scanning directory C:\Users\USER\.sbt\1.0\plugins
+[debug] [Loading] Found non-root projects 
+[debug] [Loading] Done in C:\Users\USER\.sbt\1.0\plugins, returning: ()
+[debug] deducing auto plugins based on known facts Set(Atom(sbt.plugins.CorePlugin)) and clauses Clauses(Clause(Atom(sbt.plugins.JvmPlugin),Set(Atom(sbt.plugins.IvyPlugin)))
+[debug] Clause(Atom(sbt.ScriptedPlugin),Set(Atom(sbt.plugins.JvmPlugin)))
+[debug] Clause(Atom(sbt.plugins.SbtPlugin),Set(Atom(sbt.ScriptedPlugin)))
+[debug] Clause(Atom(sbt.plugins.SemanticdbPlugin),Set(Atom(sbt.plugins.JvmPlugin)))
+[debug] Clause(Atom(sbt.plugins.JUnitXmlReportPlugin),Set(Atom(sbt.plugins.JvmPlugin)))
+[debug] Clause(Atom(sbt.plugins.MiniDependencyTreePlugin),Set(Atom(sbt.plugins.JvmPlugin)))
+[debug] Clause(Atom(sbt.plugins.CorePlugin),Set(Atom(sbt.plugins.IvyPlugin)))
+[debug] Clause(Atom(sbt.plugins.IvyPlugin),Set(Atom(sbt.plugins.JvmPlugin)))
+[debug] Clause(Atom(sbt.plugins.JvmPlugin),Set(Atom(sbt.plugins.SemanticdbPlugin)))
+[debug] Clause(Atom(sbt.plugins.JvmPlugin),Set(Atom(sbt.plugins.JUnitXmlReportPlugin)))
+[debug] Clause(Atom(sbt.plugins.CorePlugin),Set(Atom(sbt.plugins.Giter8TemplatePlugin)))
+[debug] Clause(Atom(sbt.plugins.JvmPlugin),Set(Atom(sbt.plugins.MiniDependencyTreePlugin))))
+[debug]   :: deduced result: Matched(sbt.plugins.CorePlugin,sbt.plugins.Giter8TemplatePlugin,sbt.plugins.IvyPlugin,sbt.plugins.JvmPlugin,sbt.plugins.MiniDependencyTreePlugin,sbt.plugins.JUnitXmlReportPlugin,sbt.plugins.SemanticdbPlugin)
+[debug] Plugins.deducer#function took 108.072 ms
+[debug]           Load.resolveProject(global-plugins) took 1404.037ms
+[debug]         Load.loadTransitive: finalizeProject(Project(id global-plugins, base: C:\Users\USER\.sbt\1.0\plugins, plugins: List(<none>))) took 1636.833ms
+[debug] [Loading] Done in C:\Users\USER\.sbt\1.0\plugins, returning: (global-plugins)
+[debug]       Load.loadUnit: loadedProjectsRaw took 2048.8183ms
+[debug]       Load.loadUnit: cleanEvalClasses took 2.0738ms
+[debug]     Load.loadUnit(file:/C:/Users/USER/.sbt/1.0/plugins/, ...) took 3701.5552ms
+[debug]   Load.apply: load took 10792.168ms
+[debug]   Load.apply: resolveProjects took 118.9142ms
+[debug]   Load.apply: finalTransforms took 329.0214ms
+[debug]   Load.apply: config.delegates took 37.117ms
+[debug]   Load.apply: Def.make(settings)... took 4803.6299ms
+[debug]   Load.apply: structureIndex took 624.3563ms
+[debug]   Load.apply: mkStreams took 5.9417ms
+[info] loading global plugins from C:\Users\USER\.sbt\1.0\plugins
+[debug] Running task... Cancel: Signal, check cycles: false, forcegc: true
+[debug] Load.defaultLoad until apply took 39967.0579ms
+[debug]           Load.loadUnit: plugins took 173.801ms
+[debug]           Load.loadUnit: defsScala took 0.0247ms
+[debug] [Loading] Scanning directory C:\Users\USER\Downloads\Compressed\BookstoreApp\project
+[debug]             Load.loadUnit: mkEval took 202.107ms
+[debug] [Loading] Found non-root projects 
+[debug] [Loading] Done in C:\Users\USER\Downloads\Compressed\BookstoreApp\project, returning: ()
+[debug] deducing auto plugins based on known facts Set(Atom(sbt.plugins.CorePlugin)) and clauses Clauses(Clause(Atom(sbt.plugins.JvmPlugin),Set(Atom(sbt.plugins.IvyPlugin)))
+[debug] Clause(Atom(sbt.ScriptedPlugin),Set(Atom(sbt.plugins.JvmPlugin)))
+[debug] Clause(Atom(sbt.plugins.SbtPlugin),Set(Atom(sbt.ScriptedPlugin)))
+[debug] Clause(Atom(sbt.plugins.SemanticdbPlugin),Set(Atom(sbt.plugins.JvmPlugin)))
+[debug] Clause(Atom(sbt.plugins.JUnitXmlReportPlugin),Set(Atom(sbt.plugins.JvmPlugin)))
+[debug] Clause(Atom(sbt.plugins.MiniDependencyTreePlugin),Set(Atom(sbt.plugins.JvmPlugin)))
+[debug] Clause(Atom(sbt.plugins.CorePlugin),Set(Atom(sbt.plugins.IvyPlugin)))
+[debug] Clause(Atom(sbt.plugins.IvyPlugin),Set(Atom(sbt.plugins.JvmPlugin)))
+[debug] Clause(Atom(sbt.plugins.JvmPlugin),Set(Atom(sbt.plugins.SemanticdbPlugin)))
+[debug] Clause(Atom(sbt.plugins.JvmPlugin),Set(Atom(sbt.plugins.JUnitXmlReportPlugin)))
+[debug] Clause(Atom(sbt.plugins.CorePlugin),Set(Atom(sbt.plugins.Giter8TemplatePlugin)))
+[debug] Clause(Atom(sbt.plugins.JvmPlugin),Set(Atom(sbt.plugins.MiniDependencyTreePlugin))))
+[debug]   :: deduced result: Matched(sbt.plugins.CorePlugin,sbt.plugins.Giter8TemplatePlugin,sbt.plugins.IvyPlugin,sbt.plugins.JvmPlugin,sbt.plugins.MiniDependencyTreePlugin,sbt.plugins.JUnitXmlReportPlugin,sbt.plugins.SemanticdbPlugin)
+[debug] Plugins.deducer#function took 9.1083 ms
+[info] loading settings for project bookstoreapp-build from plugins.sbt ...
+[debug]               Load.resolveProject(bookstoreapp-build) took 14.4497ms
+[debug]             Load.loadTransitive: finalizeProject(Project(id bookstoreapp-build, base: C:\Users\USER\Downloads\Compressed\BookstoreApp\project, plugins: List(<none>))) took 25.6424ms
+[debug] [Loading] Done in C:\Users\USER\Downloads\Compressed\BookstoreApp\project, returning: (bookstoreapp-build)
+[debug]           Load.loadUnit: loadedProjectsRaw took 16467.2324ms
+[debug]           Load.loadUnit: cleanEvalClasses took 41.7152ms
+[debug]         Load.loadUnit(file:/C:/Users/USER/Downloads/Compressed/BookstoreApp/project/, ...) took 16687.9702ms
+[debug]       Load.apply: load took 16694.8743ms
+[debug]       Load.apply: resolveProjects took 0.3891ms
+[debug]       Load.apply: finalTransforms took 31.2102ms
+[debug]       Load.apply: config.delegates took 1.3947ms
+[debug]       Load.apply: Def.make(settings)... took 553.7287ms
+[debug]       Load.apply: structureIndex took 118.8813ms
+[debug]       Load.apply: mkStreams took 0.0087ms
+[info] loading project definition from C:\Users\USER\Downloads\Compressed\BookstoreApp\project
+[debug] Running task... Cancel: Signal, check cycles: false, forcegc: true
